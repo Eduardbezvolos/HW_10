@@ -1,0 +1,56 @@
+    1  cd desktop
+    2  [200~-c && rm ~/.bash_history~
+    3  -c && rm ~/.bash_history
+    4  git config --global user.name Eduardbezvolos
+    5  git config --global user.email Facarys@gmail.com
+    6  git clone
+    7  cd HW_10
+    8  s
+    9  git clone
+   10  git clone https://github.com/Eduardbezvolos/HW_10.git
+   11  cd HW_10
+   12  touch text_ignore.txt
+   13  nano .gitignore
+   14  git status
+   15  git add .gitignore
+   16  commit -m "Task1"
+   17  git commit -m "task1Changes"
+   18  git commit .gitignore
+   19  git status
+   20  git status
+   21  clear
+   22  -c %% rm ~/.bash_history
+   23  bash -c "rm ~/.bash_history"
+   24  bash -c "rm ~/.bash_history"
+   25  Git Clone https://github.com/Eduardbezvolos/HW_10.git
+   26  git clone https://github.com/Eduardbezvolos/HW_10.git
+   27  cd HW_10
+   28  touch text.ignore.txt
+   29  mv text.igonore.txt text_ignore.txt
+   30  touch text_ignore.txt
+   31  git clone
+   32  cd desktop
+   33  cd hw_10
+   34  git clone https://github.com/Eduardbezvolos/HW_10.git
+   35  cd hw_10
+   36  text_ignore.txt
+   37  touch text_ignore.txt
+   38  nano .gitignore
+   39  git status
+   40  git add .
+   41  git commit -m "Created text_ignore.txt in .gitignore"
+   42  touch main_test.txt
+   43  git add .
+   44  git commit -m "Added empty file main_test.txt"
+   45  git checkout -b develop
+   46  touch develop_test.txt
+   47  git add .
+   48  git commit -m "Created empty file develop_test.txt"
+   49  echo "Just a small change" >> develop_test.txt
+   50  git status
+   51  git add .
+   52  git commit -m "Added changes in develop_test.txt"
+   53  git checkout main
+   54  git merge develop
+   55  git log --oneline
+   56  history > command_list.csv
